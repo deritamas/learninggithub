@@ -4,7 +4,6 @@ OS Information: Microsoft Windows XP Professional Service Pack 3 (build 2600)
 Internet Explorer: 6.0.2900.5512
 
 Examination Items:
-      Process
       Process Modules
       Kernel Modules
       Notify Routine
