@@ -1,0 +1,774 @@
+XT --- Computer Examination Report
+Examination Date: ****-**-** **:**
+OS Information: Microsoft Windows XP Professional Service Pack 3 (build 2600)
+Internet Explorer: 6.0.2900.5512
+
+Examination Items:
+      Process
+      Process Modules
+      Process Threads
+      Kernel Module
+      Notify Routine
+      Filter
+      DPC Timer
+      Worker Thread
+      Object Hijack
+      Direct IO
+      GDT
+      SSDT
+      Shadow SSDT
+      FSD
+      Keyboard
+      Mouclass
+      Classpnp
+      Atapi
+      Acpi
+      Scsi
+      Kernel Hook
+      Object Type
+      IDT
+      Port
+      Tcpip
+      IE Plugin
+      IE Shell
+      Spi
+      Hosts File
+      Startup
+      Service
+      File Association
+      IFEO
+      IME
+      Firewall Rule
+      Scan MBR Rootkit
+
+==========================================================================================
+
+Process
+
+       vmtoolsd.exe - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc.
+       vmtoolsd.exe - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc.
+       vmacthlp.exe - C:\Program Files\VMware\VMware Tools\vmacthlp.exe - VMware, Inc.
+       TPAutoConnSvc.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe - Cortado AG
+       xuetr.exe - C:\Documents and Settings\Administrator\My Documents\XueTr\xuetr.exe - Email: linxer@163.com
+       TPAutoConnect.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnect.exe - Cortado AG
+
+==========================================================================================
+
+Process Modules
+
+      Image File Name[System]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[lsass.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[winlogon.exe]Modules
+             shell32.dll - C:\WINDOWS\system32\shell32.dll - Microsoft Corporation
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[spoolsv.exe]Modules
+             TPVMMon.dll - C:\WINDOWS\system32\TPVMMon.dll - Cortado AG
+             TPVMW32.dll - C:\WINDOWS\system32\TPVMW32.dll - Cortado AG
+             TPRDPW32.dll - C:\WINDOWS\system32\TPRDPW32.dll - Cortado AG
+             TPWinPrn.dll - C:\WINDOWS\System32\spool\PRTPROCS\W32X86\TPWinPrn.dll - ThinPrint AG
+             TPPrnUI.DLL - C:\WINDOWS\System32\spool\DRIVERS\W32X86\3\TPPrnUI.DLL - ThinPrint AG
+             TPPRN.DLL - C:\WINDOWS\System32\spool\DRIVERS\W32X86\3\TPPRN.DLL - ThinPrint AG
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[vmtoolsd.exe]Modules
+             vmtoolsd.exe - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc.
+             intl.dll - C:\Program Files\VMware\VMware Tools\intl.dll - Free Software Foundation
+             iconv.dll - C:\Program Files\VMware\VMware Tools\iconv.dll - Free Software Foundation
+             glib-2.0.dll - C:\Program Files\VMware\VMware Tools\glib-2.0.dll - The GLib developer community
+             gmodule-2.0.dll - C:\Program Files\VMware\VMware Tools\gmodule-2.0.dll - The GLib developer community
+             gobject-2.0.dll - C:\Program Files\VMware\VMware Tools\gobject-2.0.dll - The GLib developer community
+             gthread-2.0.dll - C:\Program Files\VMware\VMware Tools\gthread-2.0.dll - The GLib developer community
+             vmtools.dll - C:\Program Files\VMware\VMware Tools\vmtools.dll - VMware, Inc.
+             vsocklib.dll - C:\WINDOWS\system32\vsocklib.dll - VMware, Inc.
+             hgfsServer.dll - C:\Program Files\VMware\VMware Tools\plugins\common\hgfsServer.dll - VMware, Inc.
+             hgfs.dll - C:\Program Files\VMware\VMware Tools\hgfs.dll - VMware, Inc.
+             hgfsUsability.dll - C:\Program Files\VMware\VMware Tools\plugins\common\hgfsUsability.dll - VMware, Inc.
+             vix.dll - C:\Program Files\VMware\VMware Tools\plugins\common\vix.dll - VMware, Inc.
+             desktopEvents.dll - C:\Program Files\VMware\VMware Tools\plugins\vmusr\desktopEvents.dll - VMware, Inc.
+             dndcp.dll - C:\Program Files\VMware\VMware Tools\plugins\vmusr\dndcp.dll - VMware, Inc.
+             sigc-2.0.dll - C:\Program Files\VMware\VMware Tools\sigc-2.0.dll - The libsigc++ development team (see AUTHORS)
+             unity.dll - C:\Program Files\VMware\VMware Tools\plugins\vmusr\unity.dll - VMware, Inc.
+             glibmm-2.4.dll - C:\Program Files\VMware\VMware Tools\glibmm-2.4.dll - The glibmm development team (see AUTHORS)
+             vmtray.dll - C:\Program Files\VMware\VMware Tools\plugins\vmusr\vmtray.dll - VMware, Inc.
+             VMToolsHook.dll - C:\Program Files\VMware\VMware Tools\VMToolsHook.dll - VMware, Inc.
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[services.exe]Modules
+             shell32.dll - C:\WINDOWS\system32\shell32.dll - Microsoft Corporation
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[explorer.exe]Modules
+             vmhgfs.dll - C:\WINDOWS\System32\vmhgfs.dll - VMware, Inc.
+             shell32.dll - C:\WINDOWS\system32\shell32.dll - Microsoft Corporation
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[vmtoolsd.exe]Modules
+             vmtoolsd.exe - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc.
+             intl.dll - C:\Program Files\VMware\VMware Tools\intl.dll - Free Software Foundation
+             iconv.dll - C:\Program Files\VMware\VMware Tools\iconv.dll - Free Software Foundation
+             glib-2.0.dll - C:\Program Files\VMware\VMware Tools\glib-2.0.dll - The GLib developer community
+             gmodule-2.0.dll - C:\Program Files\VMware\VMware Tools\gmodule-2.0.dll - The GLib developer community
+             gobject-2.0.dll - C:\Program Files\VMware\VMware Tools\gobject-2.0.dll - The GLib developer community
+             gthread-2.0.dll - C:\Program Files\VMware\VMware Tools\gthread-2.0.dll - The GLib developer community
+             vmtools.dll - C:\Program Files\VMware\VMware Tools\vmtools.dll - VMware, Inc.
+             vsocklib.dll - C:\WINDOWS\system32\vsocklib.dll - VMware, Inc.
+             hgfsServer.dll - C:\Program Files\VMware\VMware Tools\plugins\common\hgfsServer.dll - VMware, Inc.
+             hgfs.dll - C:\Program Files\VMware\VMware Tools\hgfs.dll - VMware, Inc.
+             hgfsUsability.dll - C:\Program Files\VMware\VMware Tools\plugins\common\hgfsUsability.dll - VMware, Inc.
+             thinprint.dll - C:\Program Files\VMware\VMware Tools\plugins\common\thinprint.dll - VMware, Inc.
+             vix.dll - C:\Program Files\VMware\VMware Tools\plugins\common\vix.dll - VMware, Inc.
+             autoLogon.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\autoLogon.dll - VMware, Inc.
+             autoUpgrade.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\autoUpgrade.dll - VMware, Inc.
+             bitMapper.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\bitMapper.dll - VMware, Inc.
+             deployPkgPlugin.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\deployPkgPlugin.dll - VMware, Inc.
+             deployPkg.dll - C:\Program Files\VMware\VMware Tools\deployPkg.dll - VMware, Inc.
+             diskWiper.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\diskWiper.dll - VMware, Inc.
+             guestInfo.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\guestInfo.dll - VMware, Inc.
+             hwUpgradeHelper.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\hwUpgradeHelper.dll - VMware, Inc.
+             powerOps.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\powerOps.dll - VMware, Inc.
+             resolutionSet.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\resolutionSet.dll - VMware, Inc.
+             timeSync.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\timeSync.dll - VMware, Inc.
+             vmbackup.dll - C:\Program Files\VMware\VMware Tools\plugins\vmsvc\vmbackup.dll - VMware, Inc.
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[smss.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[csrss.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[vmacthlp.exe]Modules
+             vmacthlp.exe - C:\Program Files\VMware\VMware Tools\vmacthlp.exe - VMware, Inc.
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wmiprvse.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[imapi.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[TPAutoConnSvc.exe]Modules
+             TPAutoConnSvc.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe - Cortado AG
+             TPSvc.dll - C:\WINDOWS\system32\TPSvc.dll - Cortado AG
+             TPRDPW32.dll - C:\WINDOWS\system32\TPRDPW32.dll - Cortado AG
+             TPVMW32.dll - C:\WINDOWS\system32\TPVMW32.dll - Cortado AG
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[alg.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wscntfy.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[xuetr.exe]Modules
+             xuetr.exe - C:\Documents and Settings\Administrator\My Documents\XueTr\xuetr.exe - Email: linxer@163.com
+             kfireeye.dll - C:\Documents and Settings\Administrator\My Documents\XueTr\kfireeye.dll - Kingsoft Corporation
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[rundll32.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[TPAutoConnect.exe]Modules
+             TPAutoConnect.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnect.exe - Cortado AG
+             TPSvc.dll - C:\WINDOWS\system32\TPSvc.dll - Cortado AG
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wuauclt.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wpabaln.exe]Modules
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[Idle]Modules
+
+==========================================================================================
+
+Process Threads
+
+      Image File Name[System]Threads
+             108 - Wait - vmci.sys - C:\WINDOWS\system32\drivers\vmci.sys - VMware, Inc.
+             112 - Wait - vsock.sys - C:\WINDOWS\system32\drivers\vsock.sys - VMware, Inc.
+             232 - Wait - vmmemctl.sys - C:\Program Files\Common Files\VMware\Drivers\memctl\vmmemctl.sys - VMware, Inc.
+             344 - Wait - vmhgfs.sys - C:\WINDOWS\system32\drivers\vmhgfs.sys - VMware, Inc.
+             348 - Wait - vmhgfs.sys - C:\WINDOWS\system32\drivers\vmhgfs.sys - VMware, Inc.
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[lsass.exe]Threads
+             832 - Wait -  -  - 
+             1496 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[winlogon.exe]Threads
+             984 - Wait -  -  - 
+             3700 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[spoolsv.exe]Threads
+             3144 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Threads
+             176 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[vmtoolsd.exe]Threads
+             1820 - Wait - vmtoolsd.exe - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc.
+             2424 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[services.exe]Threads
+             292 - Wait -  -  - 
+             816 - Wait -  -  - 
+             980 - Wait -  -  - 
+             1432 - Terminate -  -  - 
+             2492 - Wait -  -  - 
+             2508 - Wait -  -  - 
+             2512 - Wait -  -  - 
+             2516 - Wait -  -  - 
+             2520 - Wait -  -  - 
+             2524 - Wait -  -  - 
+             2528 - Wait -  -  - 
+             2532 - Wait -  -  - 
+             2536 - Wait -  -  - 
+             2540 - Wait -  -  - 
+             2544 - Wait -  -  - 
+             2548 - Wait -  -  - 
+             2552 - Wait -  -  - 
+             2560 - Wait -  -  - 
+             2564 - Wait -  -  - 
+             2568 - Wait -  -  - 
+             2572 - Terminate -  -  - 
+             2576 - Wait -  -  - 
+             3352 - Wait -  -  - 
+             3708 - Wait -  -  - 
+             3744 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Threads
+             288 - Wait -  -  - 
+             1152 - Wait -  -  - 
+             1232 - Wait -  -  - 
+             1236 - Wait -  -  - 
+             1572 - Wait -  -  - 
+             3364 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Threads
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Threads
+             868 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[explorer.exe]Threads
+             332 - Wait -  -  - 
+             1876 - Wait -  -  - 
+             3752 - Wait -  -  - 
+             3756 - Wait -  -  - 
+             3936 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Threads
+             1056 - Wait -  -  - 
+             1064 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[vmtoolsd.exe]Threads
+             400 - Wait - vmtoolsd.exe - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc.
+             684 - Wait -  -  - 
+             692 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[svchost.exe]Threads
+             1024 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[smss.exe]Threads
+             548 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[csrss.exe]Threads
+             620 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[vmacthlp.exe]Threads
+             912 - Wait - vmacthlp.exe - C:\Program Files\VMware\VMware Tools\vmacthlp.exe - VMware, Inc.
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wmiprvse.exe]Threads
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[imapi.exe]Threads
+             1308 - Wait -  -  - 
+             1460 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[TPAutoConnSvc.exe]Threads
+             1136 - Wait - TPAutoConnSvc.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe - Cortado AG
+             1788 - Wait - TPAutoConnSvc.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe - Cortado AG
+             1792 - Wait - TPAutoConnSvc.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe - Cortado AG
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[alg.exe]Threads
+             1968 - Wait -  -  - 
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wscntfy.exe]Threads
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[xuetr.exe]Threads
+             1772 - Run - xuetr.exe - C:\Documents and Settings\Administrator\My Documents\XueTr\xuetr.exe - Email: linxer@163.com
+             3204 - Wait - xuetr.exe - C:\Documents and Settings\Administrator\My Documents\XueTr\xuetr.exe - Email: linxer@163.com
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[rundll32.exe]Threads
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[TPAutoConnect.exe]Threads
+             1872 - Wait - TPAutoConnect.exe - C:\Program Files\VMware\VMware Tools\TPAutoConnect.exe - Cortado AG
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wuauclt.exe]Threads
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[wpabaln.exe]Threads
+
+------------------------------------------------------------------------------------------
+
+      Image File Name[Idle]Threads
+
+==========================================================================================
+
+Kernel Module
+
+       vmci.sys - C:\WINDOWS\system32\drivers\vmci.sys - VMware, Inc.
+       vsock.sys - C:\WINDOWS\system32\drivers\vsock.sys - VMware, Inc.
+       vmscsi.sys - C:\WINDOWS\system32\drivers\vmscsi.sys - VMware, Inc.
+       vmmouse.sys - C:\WINDOWS\system32\DRIVERS\vmmouse.sys - VMware, Inc.
+       vmx_svga.sys - C:\WINDOWS\system32\DRIVERS\vmx_svga.sys - VMware, Inc.
+       es1371mp.sys - C:\WINDOWS\system32\drivers\es1371mp.sys - Creative Technology Ltd.
+       vmxnet.sys - C:\WINDOWS\system32\DRIVERS\vmxnet.sys - VMware, Inc.
+       ptilink.sys - C:\WINDOWS\system32\DRIVERS\ptilink.sys - Parallel Technologies, Inc.
+       vmhgfs.sys - C:\WINDOWS\system32\drivers\vmhgfs.sys - VMware, Inc.
+       vmusbmouse.sys - C:\WINDOWS\system32\DRIVERS\vmusbmouse.sys - VMware, Inc.
+       dump_atapi.sys - C:\WINDOWS\System32\Drivers\dump_atapi.sys - File not found
+       dump_WMILIB.SYS - C:\WINDOWS\System32\Drivers\dump_WMILIB.SYS - File not found
+       vmx_fb.dll - C:\WINDOWS\System32\vmx_fb.dll - VMware, Inc.
+       PROCEXP152.SYS - C:\WINDOWS\system32\Drivers\PROCEXP152.SYS - File not found
+       vmmemctl.sys - C:\Program Files\Common Files\VMware\Drivers\memctl\vmmemctl.sys - VMware, Inc.
+       npf.sys - C:\WINDOWS\system32\drivers\npf.sys - Riverbed Technology, Inc.
+       xuetr.sys - C:\Documents and Settings\Administrator\My Documents\XueTr\xuetr.sys - File not found
+
+==========================================================================================
+
+Notify Routine
+
+       Shutdown - 0xB2F07CD8 - C:\WINDOWS\system32\drivers\vmhgfs.sys - VMware, Inc.
+
+==========================================================================================
+
+Filter
+
+       I8042prt - \Driver\vmmouse->\Driver\i8042prt - 0x82294B50 - C:\WINDOWS\system32\DRIVERS\vmmouse.sys - VMware, Inc.
+       PnpManager - \Driver\vmci->\Driver\PnpManager - 0x823A9E98 - C:\WINDOWS\system32\drivers\vmci.sys - VMware, Inc.
+       PnpManager - \Driver\ACPI_HAL->\Driver\PnpManager - 0x823AFBC8 -  - 
+
+==========================================================================================
+
+DPC Timer
+
+       Nothing
+
+==========================================================================================
+
+Worker Thread
+
+       Nothing
+
+==========================================================================================
+
+Object Hijack
+
+       Nothing
+
+==========================================================================================
+
+Direct IO
+
+       Nothing
+
+==========================================================================================
+
+GDT
+
+       Nothing
+
+==========================================================================================
+
+SSDT
+
+       Nothing
+
+==========================================================================================
+
+Shadow SSDT
+
+       Nothing
+
+==========================================================================================
+
+FSD
+
+       Nothing
+
+==========================================================================================
+
+Keyboard
+
+       Nothing
+
+==========================================================================================
+
+Mouclass
+
+       Nothing
+
+==========================================================================================
+
+Classpnp
+
+       Nothing
+
+==========================================================================================
+
+Atapi
+
+       Nothing
+
+==========================================================================================
+
+Acpi
+
+       Nothing
+
+==========================================================================================
+
+Scsi
+
+       Nothing
+
+==========================================================================================
+
+Kernel Hook
+
+       Inline - len(1) RtlPrefetchMemoryNonTemporal[ntkrnlpa.exe] - [0x80542354]->[-]
+       Inline - len(1) KiFastCallEntry[ntkrnlpa.exe] - [0x8053D736]->[-]
+       Inline - len(18) [ntkrnlpa.exe] - [0x80541A5A]->[-]
+       Inline - len(1) [ntkrnlpa.exe] - [0x80541A72]->[-]
+
+==========================================================================================
+
+Object Type
+
+       Nothing
+
+==========================================================================================
+
+IDT
+
+       Not used - OK - 0x00000000 - - - 
+       Double fault - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       Not used - OK - 0x00000000 - - - 
+       KiUnexpectedInterrupt50 - idt hook - 0x81E8D044 - unknown image - 
+       KiUnexpectedInterrupt51 - idt hook - 0x82076044 - unknown image - 
+       KiUnexpectedInterrupt67 - idt hook - 0x821EF924 - unknown image - 
+       KiUnexpectedInterrupt82 - idt hook - 0x821EFDD4 - unknown image - 
+       KiUnexpectedInterrupt83 - idt hook - 0x823A9AA4 - unknown image - 
+       KiUnexpectedInterrupt98 - idt hook - 0x820D8044 - unknown image - 
+       KiUnexpectedInterrupt99 - idt hook - 0x81F2F044 - unknown image - 
+       KiUnexpectedInterrupt115 - idt hook - 0x81F2FDD4 - unknown image - 
+       KiUnexpectedInterrupt129 - idt hook - 0x8233EDD4 - unknown image - 
+       KiUnexpectedInterrupt131 - idt hook - 0x8186276C - unknown image - 
+       KiUnexpectedInterrupt132 - idt hook - 0x82123DD4 - unknown image - 
+
+==========================================================================================
+
+Port
+
+       Tcp 127.0.0.1 : 1028 - 0.0.0.0 : 0 - LISTENING - 1932 - C:\WINDOWS\system32\alg.exe
+       Tcp 0.0.0.0 : 445 - 0.0.0.0 : 0 - LISTENING - 4 - System
+       Tcp 0.0.0.0 : 135 - 0.0.0.0 : 0 - LISTENING - 1000 - C:\WINDOWS\system32\svchost.exe
+       Tcp 192.168.8.132 : 139 - 0.0.0.0 : 0 - LISTENING - 4 - System
+       Udp 0.0.0.0 : 1031 - * : * - 1188 - C:\WINDOWS\system32\svchost.exe
+       Udp 192.168.8.132 : 123 - * : * - 1144 - C:\WINDOWS\system32\svchost.exe
+       Udp 0.0.0.0 : 500 - * : * - 740 - C:\WINDOWS\system32\lsass.exe
+       Udp 192.168.8.132 : 1900 - * : * - 1244 - C:\WINDOWS\system32\svchost.exe
+       Udp 127.0.0.1 : 123 - * : * - 1144 - C:\WINDOWS\system32\svchost.exe
+       Udp 192.168.8.132 : 137 - * : * - 4 - System
+       Udp 127.0.0.1 : 1900 - * : * - 1244 - C:\WINDOWS\system32\svchost.exe
+       Udp 0.0.0.0 : 4500 - * : * - 740 - C:\WINDOWS\system32\lsass.exe
+       Udp 0.0.0.0 : 445 - * : * - 4 - System
+       Udp 192.168.8.132 : 138 - * : * - 4 - System
+       Raw 4 - System
+       Raw 4 - System
+       Raw 4 - System
+       Raw 4 - System
+       Raw 728 - C:\WINDOWS\system32\services.exe
+       Raw 728 - C:\WINDOWS\system32\services.exe
+       Raw 740 - C:\WINDOWS\system32\lsass.exe
+
+==========================================================================================
+
+Tcpip
+
+       Nothing
+
+==========================================================================================
+
+IE Plugin
+
+       ActiveX -  -  -  - {E2E2DD38-D088-4134-82B7-F2BA38496583}
+       ActiveX -  -  -  - {FB5F1910-F110-11D2-BB9E-00C04F795683}
+
+==========================================================================================
+
+IE Shell
+
+       Nothing
+
+==========================================================================================
+
+Spi
+
+       vSockets DGRAM - C:\WINDOWS\system32\vsocklib.dll - VMware, Inc. - {570ADC4B-67B2-42CE-92B2-ACD33D88D842}
+       vSockets STREAM - C:\WINDOWS\system32\vsocklib.dll - VMware, Inc. - {570ADC4B-67B2-42CE-92B2-ACD33D88D842}
+
+==========================================================================================
+
+Hosts File
+
+              127.0.0.1       localhost
+==========================================================================================
+
+Startup
+
+       VMware User Process - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe - VMware, Inc. - [\Registry\Machine\SOFTWARE\Microsoft\Windows\CurrentVersion\Run VMware User Process]
+       procexp.exe - C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\procexp.exe - Sysinternals - www.sysinternals.com - [C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\procexp.exe]
+       TPSvc - C:\WINDOWS\system32\TPSvc.dll - Cortado AG - [\Registry\Machine\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\TPSvc DllName]
+       VMUpgradeAtShutdown - C:\WINDOWS\system32\VMUpgradeAtShutdownWXP.dll - VMware, Inc. - [\Registry\Machine\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\VMUpgradeAtShutdown DllName]
+       ThinPrint Print Port Monitor for VMWare - C:\WINDOWS\system32\TPVMMon.dll - Cortado AG - [\Registry\Machine\SYSTEM\CurrentControlSet\Control\Print\Monitors ThinPrint Print Port Monitor for VMWare]
+       ({2179C5D3-EBFF-11CF-B6FD-00AA00B4E220}) -  -  - [\Registry\Machine\SOFTWARE\Microsoft\Active Setup\Installed Components {2179C5D3-EBFF-11CF-B6FD-00AA00B4E220}]
+       Microsoft Windows Media Player 6.4({22d6f312-b0f6-11d0-94ab-0080c74c7e95}) -  -  - [\Registry\Machine\SOFTWARE\Microsoft\Active Setup\Installed Components {22d6f312-b0f6-11d0-94ab-0080c74c7e95}]
+
+==========================================================================================
+
+Service
+
+       Alerter - Stopped - Disabled - C:\WINDOWS\system32\svchost.exe -k LocalService - C:\WINDOWS\system32\svchost.exe -  - 
+       ALG - Started - Manual - C:\WINDOWS\system32\alg.exe - C:\WINDOWS\system32\alg.exe -  - 
+       AppMgmt - Stopped - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       AudioSrv - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       BITS - Stopped - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       Browser - Stopped - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       BthServ - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k bthsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       CiSvc - Stopped - Manual - C:\WINDOWS\system32\cisvc.exe - C:\WINDOWS\system32\cisvc.exe -  - 
+       ClipSrv - Stopped - Disabled - C:\WINDOWS\system32\clipsrv.exe - C:\WINDOWS\system32\clipsrv.exe -  - 
+       COMSysApp - Stopped - Manual - C:\WINDOWS\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235} - C:\WINDOWS\system32\dllhost.exe -  - 
+       CryptSvc - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       DcomLaunch - Started - Automatic - C:\WINDOWS\system32\svchost -k DcomLaunch - C:\WINDOWS\system32\svchost.exe -  - 
+       Dhcp - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       dmadmin - Stopped - Manual - C:\WINDOWS\System32\dmadmin.exe /com - C:\WINDOWS\System32\dmadmin.exe -  - 
+       dmserver - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       Dnscache - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k NetworkService - C:\WINDOWS\system32\svchost.exe -  - 
+       Dot3svc - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k dot3svc - C:\WINDOWS\System32\svchost.exe -  - 
+       EapHost - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k eapsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       ERSvc - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       Eventlog - Started - Automatic - C:\WINDOWS\system32\services.exe - C:\WINDOWS\system32\services.exe -  - 
+       EventSystem - Started - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       FastUserSwitchingCompatibility - Started - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       helpsvc - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       HidServ - Stopped - Disabled - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       hkmsvc - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       HTTPFilter - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k HTTPFilter - C:\WINDOWS\System32\svchost.exe -  - 
+       ImapiService - Started - Manual - C:\WINDOWS\system32\imapi.exe - C:\WINDOWS\system32\imapi.exe -  - 
+       LanmanServer - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       lanmanworkstation - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       LmHosts - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k LocalService - C:\WINDOWS\system32\svchost.exe -  - 
+       Messenger - Stopped - Disabled - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       mnmsrvc - Stopped - Manual - C:\WINDOWS\system32\mnmsrvc.exe - C:\WINDOWS\system32\mnmsrvc.exe -  - 
+       MozillaMaintenance - Stopped - Manual - "C:\Program Files\Mozilla Maintenance Service\maintenanceservice.exe" - C:\Program Files\Mozilla Maintenance Service\maintenanceservice.exe -  - 
+       MSDTC - Stopped - Manual - C:\WINDOWS\system32\msdtc.exe - C:\WINDOWS\system32\msdtc.exe -  - 
+       MSIServer - Stopped - Manual - C:\WINDOWS\system32\msiexec.exe /V - C:\WINDOWS\system32\msiexec.exe -  - 
+       napagent - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       NetDDE - Stopped - Disabled - C:\WINDOWS\system32\netdde.exe - C:\WINDOWS\system32\netdde.exe -  - 
+       NetDDEdsdm - Stopped - Disabled - C:\WINDOWS\system32\netdde.exe - C:\WINDOWS\system32\netdde.exe -  - 
+       Netlogon - Stopped - Manual - C:\WINDOWS\system32\lsass.exe - C:\WINDOWS\system32\lsass.exe -  - 
+       Netman - Started - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       Nla - Started - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       NtLmSsp - Stopped - Manual - C:\WINDOWS\system32\lsass.exe - C:\WINDOWS\system32\lsass.exe -  - 
+       NtmsSvc - Stopped - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       PlugPlay - Started - Automatic - C:\WINDOWS\system32\services.exe - C:\WINDOWS\system32\services.exe -  - 
+       PolicyAgent - Started - Automatic - C:\WINDOWS\system32\lsass.exe - C:\WINDOWS\system32\lsass.exe -  - 
+       ProtectedStorage - Started - Automatic - C:\WINDOWS\system32\lsass.exe - C:\WINDOWS\system32\lsass.exe -  - 
+       RasAuto - Stopped - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       RasMan - Started - Manual - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       RDSessMgr - Stopped - Manual - C:\WINDOWS\system32\sessmgr.exe - C:\WINDOWS\system32\sessmgr.exe -  - 
+       RemoteAccess - Stopped - Disabled - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       RemoteRegistry - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k LocalService - C:\WINDOWS\system32\svchost.exe -  - 
+       rpcapd - Stopped - Manual - "C:\Program Files\WinPcap\rpcapd.exe" -d -f "C:\Program Files\WinPcap\rpcapd.ini" - C:\Program Files\WinPcap\rpcapd.exe -  - 
+       RpcLocator - Stopped - Manual - C:\WINDOWS\system32\locator.exe - C:\WINDOWS\system32\locator.exe -  - 
+       RpcSs - Started - Automatic - C:\WINDOWS\system32\svchost -k rpcss - C:\WINDOWS\system32\svchost.exe -  - 
+       RSVP - Stopped - Manual - C:\WINDOWS\system32\rsvp.exe - C:\WINDOWS\system32\rsvp.exe -  - 
+       SamSs - Started - Automatic - C:\WINDOWS\system32\lsass.exe - C:\WINDOWS\system32\lsass.exe -  - 
+       SCardSvr - Stopped - Manual - C:\WINDOWS\system32\scardsvr.exe - C:\WINDOWS\system32\scardsvr.exe -  - 
+       Schedule - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       seclogon - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       SENS - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       SharedAccess - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       ShellHWDetection - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       Spooler - Started - Automatic - C:\WINDOWS\system32\spoolsv.exe - C:\WINDOWS\system32\spoolsv.exe -  - 
+       srservice - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       SSDPSRV - Started - Manual - C:\WINDOWS\system32\svchost.exe -k LocalService - C:\WINDOWS\system32\svchost.exe -  - 
+       stisvc - Stopped - Manual - C:\WINDOWS\system32\svchost.exe -k imgsvc - C:\WINDOWS\system32\svchost.exe -  - 
+       SwPrv - Stopped - Manual - C:\WINDOWS\system32\dllhost.exe /Processid:{70095662-D099-48D7-949F-2AA1156DFAEB} - C:\WINDOWS\system32\dllhost.exe -  - 
+       SysmonLog - Stopped - Manual - C:\WINDOWS\system32\smlogsvc.exe - C:\WINDOWS\system32\smlogsvc.exe -  - 
+       TapiSrv - Started - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       TermService - Started - Manual - C:\WINDOWS\System32\svchost -k DComLaunch - C:\WINDOWS\System32\svchost.exe -  - 
+       Themes - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       TlntSvr - Stopped - Disabled - C:\WINDOWS\system32\tlntsvr.exe - C:\WINDOWS\system32\tlntsvr.exe -  - 
+       TPAutoConnSvc - Started - Manual - "C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe" - C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe -  - 
+       TPVCGateway - Stopped - Manual - "C:\Program Files\VMware\VMware Tools\TPVCGateway.exe" - C:\Program Files\VMware\VMware Tools\TPVCGateway.exe -  - 
+       TrkWks - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       upnphost - Stopped - Manual - C:\WINDOWS\system32\svchost.exe -k LocalService - C:\WINDOWS\system32\svchost.exe -  - 
+       UPS - Stopped - Manual - C:\WINDOWS\system32\ups.exe - C:\WINDOWS\system32\ups.exe -  - 
+       VMTools - Started - Automatic - "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" - C:\Program Files\VMware\VMware Tools\vmtoolsd.exe -  - 
+       VMware Physical Disk Helper Service - Started - Automatic - "C:\Program Files\VMware\VMware Tools\vmacthlp.exe" - C:\Program Files\VMware\VMware Tools\vmacthlp.exe -  - 
+       VSS - Stopped - Manual - C:\WINDOWS\system32\vssvc.exe - C:\WINDOWS\system32\vssvc.exe -  - 
+       W32Time - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       WebClient - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k LocalService - C:\WINDOWS\system32\svchost.exe -  - 
+       winmgmt - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       WmdmPmSN - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       Wmi - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       WmiApSrv - Stopped - Manual - C:\WINDOWS\system32\wbem\wmiapsrv.exe - C:\WINDOWS\system32\wbem\wmiapsrv.exe -  - 
+       wscsvc - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       wuauserv - Started - Automatic - C:\WINDOWS\system32\svchost.exe -k netsvcs - C:\WINDOWS\system32\svchost.exe -  - 
+       WZCSVC - Started - Automatic - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+       xmlprov - Stopped - Manual - C:\WINDOWS\System32\svchost.exe -k netsvcs - C:\WINDOWS\System32\svchost.exe -  - 
+
+==========================================================================================
+
+File Association
+
+       chm.file - "C:\WINDOWS\hh.exe" %1 - HKEY_CLASSES_ROOT\chm.file\Shell\Open\Command
+
+==========================================================================================
+
+IFEO
+
+       Nothing
+
+==========================================================================================
+
+IME
+
+       Nothing
+
+==========================================================================================
+
+Firewall Rule
+
+       %windir%\Network Diagnostic\xpnetdiag.exe - Domain App - Enabled - 
+       %windir%\system32\sessmgr.exe - Domain App - Enabled - 
+       %windir%\Network Diagnostic\xpnetdiag.exe - Standard App - Enabled - 
+       %windir%\system32\sessmgr.exe - Standard App - Enabled - 
+
+==========================================================================================
+
+Scan MBR Rootkit
+
+       MBR OK!
