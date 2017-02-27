@@ -5,7 +5,7 @@ Internet Explorer: 6.0.2900.5512
 
 Examination Items:
       Process Modules
-      Kernel Module
+      Kernel Modul
       Notify Routine
       Filter
       DPC Timer
