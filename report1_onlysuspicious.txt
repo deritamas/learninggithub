@@ -9,7 +9,7 @@ Examination Items:
       Notify Routine
       Filter
       DPC Timer
-      Worker Thread
+      Worker Threadsadds
       Object Hijack
       Direct IO
       GDT
