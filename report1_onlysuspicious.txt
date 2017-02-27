@@ -17,13 +17,13 @@ Examination Items:
       GDT
       SSDT
       Shadow SSDT
+      Valami
       FSD
       Keyboard
       Mouclass
       Classpnp
       Atapi
       Acpi
-      Scsi
       Kernel Hook
       Object Type
       IDT
