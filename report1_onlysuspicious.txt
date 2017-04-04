@@ -11,7 +11,7 @@ Examination Items:
       DPC Timer
       Worker Threadsadd
       Object Hijack
-      Direct IO
+      Direct
       GDT
       SSDT
       Shadow SSDT
